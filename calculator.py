@@ -21,3 +21,10 @@ while ch=='y' :
         print('Choose valid operator')
     print(a,op,b,'=',c)
     ch=input("Do you want to calculate again: y , n")
+
+#This is a single line comment
+
+
+''' This is a
+multi-line
+comment'''
