@@ -1,30 +1,30 @@
-c=0
-ch='y'
-while ch=='y' :
+"""
+calculator.py
+
+This is a simple python calculator that performs basic operations such as addition, subtraction, multiplication, division, modulus, and exponentiation.
+"""
+
+CHECK='y'
+while CHECK=='y' :
     a=int(input('Enter first number: '))
-    b=int(input('Enter second number: '))
     op=input("Choose operation: + , - , * , / , %, ^ : ")
-    c=0
+    b=int(input('Enter second number: '))
+
     if op=='+' :
-        c=a+b
+        result=a+b
     elif op=='-' :
-        c=a-b
+        result=a-b
     elif op=='*' :
-        c=a*b
+        result=a*b
     elif op=='/':
-        c=a/b
+        result=a/b
     elif op=='%' :
-        c=a%b
+        result=a%b
     elif op=='^' :
-        c=a**b
+        result=a**b
     else:
         print('Choose valid operator')
-    print(a,op,b,'=',c)
-    ch=input("Do you want to calculate again: y , n")
-
-#This is a single line comment
-
-
-''' This is a
-multi-line
-comment'''
+        continue
+    print(a,op,b,'=',result)
+    CHECK=input("Do you want to calculate again: y , n")
+ 
