@@ -1,7 +1,7 @@
 """
 calculator.py
 
-This is a simple python calculator that performs basic operations such as addition, subtraction, multiplication, division, modulus, and exponentiation.
+This is a simple python calculator that performs basic operations such as addition, subtraction, etc.
 """
 
 CHECK='y'
@@ -27,4 +27,3 @@ while CHECK=='y' :
         continue
     print(a,op,b,'=',result)
     CHECK=input("Do you want to calculate again: y , n")
- 
