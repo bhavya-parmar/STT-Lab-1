@@ -1,7 +1,7 @@
 """
 calculator.py
 
-This is a simple python calculator that performs basic operations such as addition, subtraction, etc.
+A simple python calculator that performs basic operations such as addition, subtraction, etc.
 """
 
 CHECK='y'
